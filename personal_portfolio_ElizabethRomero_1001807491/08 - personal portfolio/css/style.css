@@ -1,0 +1,888 @@
+/*
+    Created by: Elizabeth Romero - 1001807491
+    Created on: 4/4/2023
+    Updated on: 4/6/2023
+    Project: Personal Portfolio
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@500&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+:root {
+  /* Grid */
+  --number-of-columns: 12;
+  --grid-width: calc(100% / var(--number-of-columns));
+  --col-1: calc(var(--grid-width) * 1);
+  --col-2: calc(var(--grid-width) * 2);
+  --col-3: calc(var(--grid-width) * 3);
+  --col-4: calc(var(--grid-width) * 4);
+  --col-5: calc(var(--grid-width) * 5);
+  --col-6: calc(var(--grid-width) * 6);
+  --col-7: calc(var(--grid-width) * 7);
+  --col-8: calc(var(--grid-width) * 8);
+  --col-9: calc(var(--grid-width) * 9);
+  --col-10: calc(var(--grid-width) * 10);
+  --col-11: calc(var(--grid-width) * 11);
+  --col-12: calc(var(--grid-width) * 12);
+ /* Branding */
+ --primary: #cf72d5;
+ --primary-hover: #76A2DB;
+ --secondary: #DAAAF0;
+ --secondary-hover: #F7E8C6;
+ --tertiary: blue;
+ --tertiary-hover: blue;
+ --font-color: black;
+
+ --gray-0: #222222;
+ --gray-1: #666666;
+ --gray-2: #999999;
+ --gray-3: #dadada;
+ --gray-4: #efefef;
+
+ --white: white;
+    /* Other */
+    --table-padding: 1.618rem;
+    /* typography*/
+    --base-font-size: 20px;
+    --base-scale: 1.25;
+    --base-line-height: calc(1em * var(--base-scale));
+    --h4-font-size: 1rem;
+    --h3-font-size: calc(1rem * var(--base-scale));
+    --h2-font-size: calc(1rem * var(--base-scale) * var(--base-scale));
+    --h1-font-size: calc(1rem * var(--base-scale) * var(--base-scale) * var(--base-scale));
+    --p: 1.618rem;
+
+}
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html{
+  font-size: var(--base-font-size);
+}
+
+body {
+  padding: 1rem;
+  margin: 0;
+  line-height: var(--base-line-height);
+  font-family:'Figtree', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+}
+
+/* Forms */
+fieldset {
+  padding: var(--base-line-height);
+  border: 1px solid var(--primary);
+  margin-bottom: var(--base-line-height);
+}
+
+fieldset legend {
+  color: var(--primary);
+}
+
+.form-group {
+  margin-bottom: var(--base-line-height);
+}
+
+fieldset .form-group:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control,
+.form-check-input {
+  accent-color: var(--secondary);
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: var(--base-line-height);
+  padding: calc((1em / var(--base-scale)) / var(--base-scale) / var(--base-scale)) calc(1em / var(--base-scale) / var(--base-scale));
+  border: 1px solid var(--gray-0);
+  color: var(--font-color);
+}
+
+input.form-control {
+  width: 100%;
+  max-width: 100%;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: calc(4 * var(--base-line-height));
+}
+
+/* Pseudo Selectors */
+.form-control:focus {
+  outline: var(--secondary-blurred) solid 2px;
+  outline-offset: 2px;
+}
+
+.form-check-input:checked {
+  box-shadow: 0 0 4px 4px var(--secondary-blurred);
+}
+
+.form-control:disabled,
+.form-control:hover:disabled,
+input:disabled,
+input:hover:disabled {
+  background-color: var(--gray-3);
+  color: var(--gray-2);
+  cursor: not-allowed;
+}
+
+input:invalid,
+input:focus:invalid {
+  border-color: red;
+  box-shadow: 0 0 2px red;
+  outline: red solid 2px;
+  outline-offset: 2px;
+}
+
+/* Button Styles */
+.btn {
+  font-size: 1rem;
+  line-height: var(--base-line-height);
+  display: inline-block;
+  overflow: hidden;
+  padding: calc((1em / var(--base-scale)) / var(--base-scale)) calc(1em / var(--base-scale));
+  background-color: var(--gray-1);
+  text-decoration: none;
+  color: var(--white);
+  border: 0 none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--gray-0);
+}
+
+/* Button colors */
+.btn-primary {
+  background-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-hover);
+}
+
+.btn-tertiary {
+  background-color: var(--tertiary);
+}
+
+.btn-tertiary:hover {
+  background-color: var(--tertiary-hover);
+}
+
+/* Button sizes */
+.btn-sm {
+  font-size: calc(1em / var(--base-scale));
+}
+
+.btn-lg {
+  font-size: var(--h3-font-size);
+}
+
+.container-fluid,
+.container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+}
+
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+[class^="col-"] {
+  padding: 0 1rem;
+  /* width: 100%; */
+  max-width: 100%;
+  /* border: 1px solid green; */
+}
+
+.col-xs-1 {
+  flex: 0 0 var(--col-1);
+  max-width: var(--col-1);
+  background-color: var(--blue-1);
+}
+
+.col-xs-2 {
+  flex: 0 0 var(--col-2);
+  max-width: var(--col-2);
+  background-color: var(--blue-2);
+}
+
+.col-xs-3 {
+  flex: 0 0 var(--col-3);
+  max-width: var(--col-3);
+  background-color: var(--blue-3);
+}
+
+.col-xs-4 {
+  flex: 0 0 var(--col-4);
+  max-width: var(--col-4);
+  background-color: var(--blue-4);
+}
+
+.col-xs-5 {
+  flex: 0 0 var(--col-5);
+  max-width: var(--col-5);
+  background-color: var(--blue-5);
+}
+
+.col-xs-6 {
+  flex: 0 0 var(--col-6);
+  max-width: var(--col-6);
+  background-color: var(--blue-6);
+}
+
+.col-xs-7 {
+  flex: 0 0 var(--col-7);
+  max-width: var(--col-7);
+  background-color: var(--blue-7);
+}
+
+.col-xs-8 {
+  flex: 0 0 var(--col-8);
+  max-width: var(--col-8);
+  background-color: var(--blue-8);
+}
+
+.col-xs-9 {
+  flex: 0 0 var(--col-9);
+  max-width: var(--col-9);
+  background-color: var(--blue-9);
+}
+
+.col-xs-10 {
+  flex: 0 0 var(--col-10);
+  max-width: var(--col-10);
+  background-color: var(--blue-10);
+}
+
+.col-xs-11 {
+  flex: 0 0 var(--col-11);
+  max-width: var(--col-11);
+  background-color: var(--blue-11);
+}
+
+.col-xs-12 {
+  flex: 0 0 var(--col-12);
+  max-width: var(--col-12);
+  background-color: var(--blue-12);
+}
+
+/* Styles for 'col-sm-...' grid */
+@media screen and (min-width: 576px){
+  .col-sm-1 {
+      flex: 0 0 var(--col-1);
+      max-width: var(--col-1);
+      background-color: var(--blue-1);
+  }
+  
+  .col-sm-2 {
+      flex: 0 0 var(--col-2);
+      max-width: var(--col-2);
+      background-color: var(--blue-2);
+  }
+  
+  .col-sm-3 {
+      flex: 0 0 var(--col-3);
+      max-width: var(--col-3);
+      background-color: var(--blue-3);
+  }
+  
+  .col-sm-4 {
+      flex: 0 0 var(--col-4);
+      max-width: var(--col-4);
+      background-color: var(--blue-4);
+  }
+  
+  .col-sm-5 {
+      flex: 0 0 var(--col-5);
+      max-width: var(--col-5);
+      background-color: var(--blue-5);
+  }
+  
+  .col-sm-6 {
+      flex: 0 0 var(--col-6);
+      max-width: var(--col-6);
+      background-color: var(--blue-6);
+  }
+  .col-sm-7 {
+    flex: 0 0 var(--col-7);
+    max-width: var(--col-7);
+    background-color: var(--blue-7);
+  }
+  
+  .col-sm-8 {
+    flex: 0 0 var(--col-8);
+    max-width: var(--col-8);
+    background-color: var(--blue-8);
+  }
+  
+  .col-sm-9 {
+    flex: 0 0 var(--col-9);
+    max-width: var(--col-9);
+    background-color: var(--blue-9);
+  }
+  
+  .col-sm-10 {
+    flex: 0 0 var(--col-10);
+    max-width: var(--col-10);
+    background-color: var(--blue-10);
+  }
+  
+  .col-sm-11 {
+    flex: 0 0 var(--col-11);
+    max-width: var(--col-11);
+    background-color: var(--blue-11);
+  }
+  
+  .col-sm-12 {
+    flex: 0 0 var(--col-12);
+    max-width: var(--col-12);
+    background-color: var(--blue-12);
+  }
+  
+}
+
+/* Styles for 'col-md-...' grid */
+@media screen and (min-width: 768px){
+
+  .col-md-1 {
+    flex: 0 0 var(--col-1);
+    max-width: var(--col-1);
+    background-color: var(--blue-1);
+  }
+  
+  .col-md-2 {
+    flex: 0 0 var(--col-2);
+    max-width: var(--col-2);
+    background-color: var(--blue-2);
+  }
+  
+  .col-md-3 {
+    flex: 0 0 var(--col-3);
+    max-width: var(--col-3);
+    background-color: var(--blue-3);
+  }
+  
+  .col-md-4 {
+    flex: 0 0 var(--col-4);
+    max-width: var(--col-4);
+    background-color: var(--blue-4);
+  }
+  
+  .col-md-5 {
+    flex: 0 0 var(--col-5);
+    max-width: var(--col-5);
+    background-color: var(--blue-5);
+  }
+  
+  .col-md-6 {
+    flex: 0 0 var(--col-6);
+    max-width: var(--col-6);
+    background-color: var(--blue-6);
+  }
+  
+  .col-md-7 {
+    flex: 0 0 var(--col-7);
+    max-width: var(--col-7);
+    background-color: var(--blue-7);
+  }
+  
+  .col-md-8 {
+    flex: 0 0 var(--col-8);
+    max-width: var(--col-8);
+    background-color: var(--blue-8);
+  }
+  
+  .col-md-9 {
+    flex: 0 0 var(--col-9);
+    max-width: var(--col-9);
+    background-color: var(--blue-9);
+  }
+  
+  .col-md-10 {
+    flex: 0 0 var(--col-10);
+    max-width: var(--col-10);
+    background-color: var(--blue-10);
+  }
+  
+  .col-md-11 {
+    flex: 0 0 var(--col-11);
+    max-width: var(--col-11);
+    background-color: var(--blue-11);
+  }
+  
+  .col-md-12 {
+    flex: 0 0 var(--col-12);
+    max-width: var(--col-12);
+    background-color: var(--blue-12);
+  }
+  
+}
+
+/* Styles for 'col-lg-...' grid */
+@media screen and (min-width: 992px){
+  .col-lg-1 {
+      flex: 0 0 var(--col-1);
+      max-width: var(--col-1);
+      background-color: var(--blue-1);
+  }
+  
+  .col-lg-2 {
+      flex: 0 0 var(--col-2);
+      max-width: var(--col-2);
+      background-color: var(--blue-2);
+  }
+  
+  .col-lg-3 {
+      flex: 0 0 var(--col-3);
+      max-width: var(--col-3);
+      background-color: var(--blue-3);
+  }
+  
+  .col-lg-4 {
+      flex: 0 0 var(--col-4);
+      max-width: var(--col-4);
+      background-color: var(--blue-4);
+  }
+  
+  .col-lg-5 {
+      flex: 0 0 var(--col-5);
+      max-width: var(--col-5);
+      background-color: var(--blue-5);
+  }
+  
+  .col-lg-6 {
+      flex: 0 0 var(--col-6);
+      max-width: var(--col-6);
+      background-color: var(--blue-6);
+  }
+  .col-lg-7 {
+    flex: 0 0 var(--col-7);
+    max-width: var(--col-7);
+    background-color: var(--blue-1);
+  }
+  
+  .col-lg-8 {
+    flex: 0 0 var(--col-8);
+    max-width: var(--col-8);
+    background-color: var(--blue-2);
+  }
+  
+  .col-lg-9 {
+    flex: 0 0 var(--col-9);
+    max-width: var(--col-9);
+    background-color: var(--blue-3);
+  }
+  
+  .col-lg-10 {
+    flex: 0 0 var(--col-10);
+    max-width: var(--col-10);
+    background-color: var(--blue-4);
+  }
+  
+  .col-lg-11 {
+    flex: 0 0 var(--col-11);
+    max-width: var(--col-11);
+    background-color: var(--blue-5);
+  }
+  
+  .col-lg-12 {
+    flex: 0 0 var(--col-12);
+    max-width: var(--col-12);
+    background-color: var(--blue-6);
+  }
+  
+
+}
+
+/* Styles for 'col-xl-...' grid */
+@media screen and (min-width: 1200px){
+  .col-xl-1 {
+      flex: 0 0 var(--col-1);
+      max-width: var(--col-1);
+      background-color: var(--blue-1);
+  }
+  
+  .col-xl-2 {
+      flex: 0 0 var(--col-2);
+      max-width: var(--col-2);
+      background-color: var(--blue-2);
+  }
+  
+  .col-xl-3 {
+      flex: 0 0 var(--col-3);
+      max-width: var(--col-3);
+      background-color: var(--blue-3);
+  }
+  
+  .col-xl-4 {
+      flex: 0 0 var(--col-4);
+      max-width: var(--col-4);
+      background-color: var(--blue-4);
+  }
+  
+  .col-xl-5 {
+      flex: 0 0 var(--col-5);
+      max-width: var(--col-5);
+      background-color: var(--blue-5);
+  }
+  
+  .col-xl-6 {
+      flex: 0 0 var(--col-6);
+      max-width: var(--col-6);
+      background-color: var(--blue-6);
+  }
+  .col-xl-7 {
+    flex: 0 0 var(--col-7);
+    max-width: var(--col-7);
+    background-color: var(--blue-7);
+  }
+  
+  .col-xl-8 {
+    flex: 0 0 var(--col-8);
+    max-width: var(--col-8);
+    background-color: var(--blue-8);
+  }
+  
+  .col-xl-9 {
+    flex: 0 0 var(--col-9);
+    max-width: var(--col-9);
+    background-color: var(--blue-9);
+  }
+  
+  .col-xl-10 {
+    flex: 0 0 var(--col-10);
+    max-width: var(--col-10);
+    background-color: var(--blue-10);
+  }
+  
+  .col-xl-11 {
+    flex: 0 0 var(--col-11);
+    max-width: var(--col-11);
+    background-color: var(--blue-11);
+  }
+  
+  .col-xl-12 {
+    flex: 0 0 var(--col-12);
+    max-width: var(--col-12);
+    background-color: var(--blue-12);
+  }
+}
+
+/* End of Grid System */
+
+
+
+/* List styles */
+
+
+ul.unstyled {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.inline {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+}
+
+
+ul.inline > li {
+  margin-right: calc(1rem * var(--base-scale));
+}
+
+ul.inline > li:last-of-type {
+  margin-right: 0;
+}
+/* end of list styles */
+
+/* Navigation Styles */
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.navbar-brand {
+    display: block;
+    overflow: hidden;
+    background: url(../images/logo.svg) no-repeat center/contain transparent;
+    background-repeat:no-repeat;
+    background-position: center;
+     background-size:contain; 
+    /* background-size:cover; to make picture fill background */
+    background-color:#ffffff;
+    width: 10rem;
+    height: 4rem;
+    text-indent: -9999px;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: var(--primary);
+    border: 0 none;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.navigation {
+    flex: 0 0 100%;
+    /* not expand */
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-nav li > a {
+    color: var(--primary);
+    display: block;
+    overflow: hidden;
+    /* hides the access stuff display and overflow */
+    padding: calc((1em / var(--base-scale)) / var(--base-scale)) calc(1em / var(--base-scale));
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-nav li.active > a {
+    border-bottom-color: var(--primary);
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+}
+
+.navbar-nav li > a:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.dropdown-toggle::after {
+    content: "\f0d8";
+    font-family: "FontAwesome";
+    font-weight: 400;
+    margin-left: var(--base-line-height);
+}
+
+.collapse > .dropdown-toggle::after {
+    content: "\f0d7";
+}
+/* putting the greater than sign targets the drop down tab */
+
+.dropdown-menu > a {
+    background-color: var(--gray-2);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    /* This fixes the issue with the menu not being clickable when you expand it on desktop */
+    z-index: 1;
+}
+
+.dropdown-menu > a {
+    flex: 1 0 100%;
+    color: var(--white);
+    padding: calc((1em / var(--base-scale)) / var(--base-scale)) calc(1em / var(--base-scale));
+    text-decoration: none;
+}
+
+.dropdown-menu > a:hover {
+    background-color: var(--gray-1);
+}
+.navigation.collapse .navbar-nav {
+  display: none;
+}
+
+.dropdown.collapse .dropdown-menu {
+  display: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+@media screen and (min-width: 768px){
+  .navbar-toggler {
+      display: none;
+  }
+
+  .navigation {
+      flex: 0 0 auto;
+  }
+
+  .navbar-nav {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      align-items: baseline;
+      align-content: center;
+  }
+
+  .dropdown-menu {
+      position: absolute;
+  }
+
+  .navigation.collapse .navbar-nav,
+.navbar-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-content: center;
+}
+
+
+
+}
+/* End of Navigation Styles */
+
+
+/* Footer Styles */
+footer {
+  margin-top: 3rem;
+  font-size: calc(1rem / var(--base-scale));
+  background-color: var(--gray-3);
+}
+
+footer h3,
+footer h4 {
+  margin-bottom: calc(1rem / var(--base-scale));
+}
+
+footer .footer-nav {
+  margin: 0;
+  /* margin: 0-top 1rem left and right 2rem bottom */
+}
+
+footer .footer-nav a {
+  display: block;
+  overflow: hidden;
+  padding: calc((1em / var(--base-scale)) / var(--base-scale) / var(--base-scale)) calc(1em / var(--base-scale) / var(--base-scale));
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+footer .footer-nav a:hover {
+  color: var(--primary-hover);
+  border-bottom-color: var(--primary-hover);
+}
+
+footer .form-group label {
+  margin-top: 0;
+}
+
+footer .copyright {
+  background-color: var(--gray-4);
+  text-align: center;
+  padding:1rem 0;
+ 
+}
+
+footer p,
+footer .social-media {
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+footer .social-media {
+  justify-content: center;
+  font-size:1rem;
+}
+
+footer .social-media a {
+  display: block;
+  overflow: hidden;
+  color: var(--primary);
+}
+
+@media screen and (min-width: 768px){
+  footer .copyright {
+      text-align: unset;
+  }
+
+  footer .social-media {
+      justify-content: flex-end;
+  }
+}
+/* End of Footer Styles */
+
+/*
+    * Window size styles
+    * Do not edit or delete this from examples
+*/
+#windowSize {
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  user-select: none;
+  z-index: 10;
+}
+/* End of Window size styles */
