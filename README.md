@@ -1,1 +1,1 @@
-# recent projects
+# Recent Projects
