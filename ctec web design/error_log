@@ -1,0 +1,1137 @@
+[08-Nov-2023 00:43:08 UTC] PHP Warning:  include(dbconn.inc.php): Failed to open stream: No such file or directory in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 3
+[08-Nov-2023 00:43:08 UTC] PHP Warning:  include(): Failed opening 'dbconn.inc.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 3
+[08-Nov-2023 00:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dbConnect() in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 7
+[08-Nov-2023 00:43:52 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 00:49:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php:47
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php(47): mysqli_stmt->bind_result(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 47
+[08-Nov-2023 00:55:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php:47
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php(47): mysqli_stmt->bind_result(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 47
+[08-Nov-2023 01:19:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php:47
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php(47): mysqli_stmt->bind_result(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 47
+[08-Nov-2023 01:20:22 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:20:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php:48
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php(48): mysqli_stmt->bind_result(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 48
+[08-Nov-2023 01:20:34 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:20:37 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:20:38 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:20:38 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:20:38 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:20:38 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:20:47 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:20:53 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:20:57 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:20:57 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:20:57 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:20:57 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:21:53 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:21:53 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:21:53 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:21:53 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:21:54 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:21:54 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:21:54 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:21:54 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:22:02 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:23:28 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:23:28 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:23:28 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:23:28 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:23:30 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:23:42 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:23:42 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:23:42 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:23:42 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:25:12 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:26:27 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:26:27 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:26:27 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:26:27 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:26:29 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:02 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:07 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:08 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:09 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:10 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:11 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:12 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:13 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:14 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:14 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:16 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:17 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:18 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:19 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:20 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:20 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:22 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:23 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:28:24 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:32:05 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:59
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(59): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 59
+[08-Nov-2023 01:32:24 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:32:33 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:32:41 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:33:05 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:59
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(59): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 59
+[08-Nov-2023 01:35:08 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 01:35:10 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 01:35:10 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 01:35:10 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 01:35:10 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 01:35:13 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 03:16:32 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[08-Nov-2023 03:16:32 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[08-Nov-2023 03:16:32 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[08-Nov-2023 03:16:32 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[08-Nov-2023 03:16:56 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[08-Nov-2023 03:17:03 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:59
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(59): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 59
+[08-Nov-2023 04:01:18 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[17-Nov-2023 21:27:45 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[17-Nov-2023 21:39:29 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[17-Nov-2023 21:39:35 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[17-Nov-2023 21:39:35 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[17-Nov-2023 21:39:35 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[17-Nov-2023 21:39:35 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[17-Nov-2023 21:39:37 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[17-Nov-2023 21:40:14 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[17-Nov-2023 23:04:47 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[18-Nov-2023 20:27:33 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[18-Nov-2023 20:29:12 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[18-Nov-2023 20:29:12 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[18-Nov-2023 20:29:12 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[18-Nov-2023 20:29:12 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[19-Nov-2023 13:20:53 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[19-Nov-2023 13:23:37 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[19-Nov-2023 13:23:37 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[19-Nov-2023 13:23:37 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[19-Nov-2023 13:23:37 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[19-Nov-2023 15:51:37 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[20-Nov-2023 16:10:41 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[21-Nov-2023 00:12:07 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[28-Nov-2023 19:37:28 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[28-Nov-2023 19:37:35 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[28-Nov-2023 19:37:35 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[28-Nov-2023 19:37:35 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[28-Nov-2023 19:37:35 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[28-Nov-2023 19:37:37 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[28-Nov-2023 19:37:46 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:59
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(59): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 59
+[28-Nov-2023 19:43:12 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:59
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(59): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 59
+[28-Nov-2023 19:43:21 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[28-Nov-2023 19:43:45 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:59
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(59): mysqli_stmt->close()
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 59
+[28-Nov-2023 19:43:48 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[28-Nov-2023 19:43:48 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[28-Nov-2023 19:43:48 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[28-Nov-2023 19:43:48 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[28-Nov-2023 19:44:00 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[28-Nov-2023 19:44:24 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:24:56 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:24:59 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 04:24:59 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 04:24:59 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 04:24:59 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 04:25:00 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:32:39 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:35:02 UTC] PHP Warning:  Undefined variable $PID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 56
+[05-Dec-2023 04:39:28 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:39:33 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 04:39:33 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 04:39:33 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 04:39:33 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 04:43:43 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 04:43:43 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 04:43:43 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 04:43:43 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 04:43:44 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:44:15 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:46:37 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:46:47 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:53:14 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:53:17 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 04:53:17 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 04:53:17 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 04:53:17 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 04:53:20 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:56:54 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:56:55 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:56:55 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:56:56 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 04:56:56 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 04:56:56 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 04:56:56 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 04:56:58 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 04:57:04 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:03:18 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:03:20 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:03:20 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:03:20 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:03:20 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:07:15 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:07:15 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:07:15 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:07:15 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:07:16 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:07:16 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:07:16 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:07:16 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:07:17 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:34 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:35 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:35 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:35 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:36 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:36 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:44 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:07:51 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:07:51 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:07:51 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:07:51 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:07:57 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:07:57 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:07:57 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:07:57 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:10:10 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:10:10 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:10:10 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:10:10 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:10:11 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:10:11 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:10:11 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:10:11 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:10:13 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:10:15 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:10:15 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:10:15 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:10:15 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:15:59 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:15:59 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:15:59 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:15:59 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:16:01 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:16:11 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:16:11 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:16:11 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:16:11 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:17:35 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:17:35 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:17:35 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:17:35 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:17:36 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 05:18:03 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:18:03 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:18:03 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:18:03 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:18:07 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:18:07 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:18:07 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:18:07 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:18:11 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:18:11 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:18:11 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:18:11 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:21:00 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:21:00 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:21:00 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:21:00 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:22:37 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:22:37 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:22:37 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:22:37 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:23:53 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:23:53 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:23:53 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:23:53 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:56:01 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:56:01 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:56:01 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:56:01 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 05:56:18 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 05:56:18 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 05:56:18 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 05:56:18 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 06:01:10 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 06:01:10 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 06:01:10 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 06:01:10 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 17:08:43 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 17:08:43 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 17:08:43 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 17:08:43 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:29:50 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 18:29:50 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 18:29:50 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 18:29:50 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:38:59 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 18:38:59 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 18:38:59 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 18:38:59 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:51:31 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 18:51:31 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 18:51:31 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 18:51:31 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:51:38 UTC] PHP Warning:  Undefined variable $category in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 120
+[05-Dec-2023 18:51:38 UTC] PHP Warning:  Undefined variable $linkurl in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 121
+[05-Dec-2023 18:51:38 UTC] PHP Warning:  Undefined variable $linktext in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 122
+[05-Dec-2023 18:51:38 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:57:14 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:57:20 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:57:24 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:57:46 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:58:03 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:58:20 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:58:24 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:58:27 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:58:53 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList(4)
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 18:59:01 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:00:29 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:01:12 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(123): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:02:11 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:02:22 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList(4)
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:02:38 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:03:22 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:03:23 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:04:10 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:05:36 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:05:39 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:05:40 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:05:47 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:06:04 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:06:46 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:07:31 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:07:32 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:07:39 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:08:41 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:08:43 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:08:47 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:08:55 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:09:54 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:09:56 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:09:57 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:12:50 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:14:11 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:15:55 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:16:13 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:16:22 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:16:23 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:16:45 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:16:46 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:16:48 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:16:49 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:16:53 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:17:27 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:17:30 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:18:30 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:19:03 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:19:04 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:20:25 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:20:26 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:20:27 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:22:09 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:22:10 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:22:17 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:22:18 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:25:04 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:25:53 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:26:15 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php:92
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(92): mysqli_stmt->close()
+#1 /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php(124): CategoryOptionList('')
+#2 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 92
+[05-Dec-2023 19:27:52 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:27:52 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:27:52 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:27:52 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:27:52 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:27:52 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:27:52 UTC] PHP Warning:  Undefined variable $PDetail in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 125
+[05-Dec-2023 19:29:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:29:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:29:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:29:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:29:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:29:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:29:57 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 19:29:57 UTC] PHP Warning:  Undefined variable $stmt_prepared in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 98
+[05-Dec-2023 19:33:48 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 19:33:51 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:33:55 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:34:04 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:34:04 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:34:04 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:34:04 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:34:04 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:34:04 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:34:24 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:38:08 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:38:28 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:38:28 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:38:28 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:38:28 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:38:28 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:38:28 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:39:00 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 19:39:07 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:39:11 UTC] PHP Warning:  Undefined array key "LinkID" in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_productList.php on line 40
+[05-Dec-2023 19:39:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:39:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:39:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:39:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:39:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:39:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:41:26 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:41:26 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:41:26 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:41:26 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:41:26 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:41:26 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:41:36 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 19:45:50 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:45:50 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:45:50 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:45:50 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:45:50 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:45:50 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 19:46:07 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 20:00:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:43 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:43 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:43 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:43 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:43 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:00:43 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:09:14 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:09:14 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:09:14 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:09:14 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:09:14 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:09:14 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:09:49 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 20:19:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:19:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:19:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:19:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:19:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:19:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:19:36 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 20:20:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:20:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:20:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:20:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:20:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:20:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:20:37 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[05-Dec-2023 20:22:22 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:22:22 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:22:22 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:22:22 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:22:22 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:22:22 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[05-Dec-2023 20:22:28 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[07-Dec-2023 03:47:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:42 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_form.php on line 83
+[07-Dec-2023 03:47:47 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/productlistAdmin/admin_edit.php on line 70
+[07-Dec-2023 04:53:17 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/review.php on line 111
+[07-Dec-2023 04:55:15 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/review.php on line 111
+[07-Dec-2023 04:55:17 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/review.php on line 111
+[07-Dec-2023 04:55:17 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/review.php on line 111
+[07-Dec-2023 04:55:18 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/review.php on line 111
+[07-Dec-2023 05:07:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:07:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:07:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:07:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:07:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:07:30 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:19 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:19 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:19 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:19 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:19 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:19 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:25 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:25 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:25 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:25 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:25 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:19:25 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form.php on line 83
+[07-Dec-2023 05:29:02 UTC] PHP Warning:  Undefined variable $Price in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 121
+[07-Dec-2023 05:29:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:29:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:29:45 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:29:45 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:29:51 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 05:29:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php:94
+Stack trace:
+#0 /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php(94): mysqli_stmt->bind_param('sdssi', 'Mia Garcia', 'hi', '1')
+#1 {main}
+  thrown in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 94
+[07-Dec-2023 05:30:25 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 05:32:15 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:32:15 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:36:34 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 05:39:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:39:02 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:39:06 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 05:43:40 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:43:40 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:43:45 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 05:56:24 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:56:24 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:56:31 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 05:56:38 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 05:56:38 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:01:35 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:01:35 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:03:05 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:03:05 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:03:08 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:03:08 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:03:13 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:03:13 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:03:19 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 06:05:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:05:27 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:05:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:05:31 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_form2.php on line 83
+[07-Dec-2023 06:05:34 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_edit2.php on line 70
+[07-Dec-2023 06:15:15 UTC] PHP Warning:  Undefined variable $admin_nav1 in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_productList2.php on line 17
+[07-Dec-2023 06:15:30 UTC] PHP Warning:  Undefined variable $admin_nav2 in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_productList2.php on line 17
+[07-Dec-2023 06:15:33 UTC] PHP Warning:  Undefined variable $admin_nav2 in /home/edr7491/ctech4321.edr7491.uta.cloud/project review delete/admin_productList2.php on line 17
+[07-Dec-2023 06:18:00 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 116
+[07-Dec-2023 06:18:00 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:18:02 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:18:04 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:18:05 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:18:07 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:18:12 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:18:14 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:18:41 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 159
+[07-Dec-2023 06:19:00 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 159
+[07-Dec-2023 06:19:08 UTC] PHP Warning:  Undefined array key "CID" in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 116
+[07-Dec-2023 06:19:08 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:19:12 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 163
+[07-Dec-2023 06:25:13 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:25:16 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:25:19 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:25:23 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:25:33 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:26:55 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:26:57 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:26:58 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:26:59 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:27:00 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:27:10 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_delete2.php on line 74
+[07-Dec-2023 06:27:13 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:27:13 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:27:13 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:27:20 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:27:20 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:27:20 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:27:22 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:27:29 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:27:29 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:27:29 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:27:32 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 70
+[07-Dec-2023 06:27:32 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:27:40 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_delete2.php on line 74
+[07-Dec-2023 06:27:50 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:27:52 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:27:54 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:27:56 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:27:58 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:29:53 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:30:03 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:30:17 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:30:21 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:32:41 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:34:00 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:34:47 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:34:49 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:34:52 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:34:53 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:34:54 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:34:57 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:35:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:18 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:18 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:35:23 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:23 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:23 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:35:25 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:35:35 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:35 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:35 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:35:41 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:41 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:41 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:35:46 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:35:53 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:53 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:35:53 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:37:31 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 70
+[07-Dec-2023 06:37:31 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:37:38 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:37:38 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:37:38 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:37:41 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 70
+[07-Dec-2023 06:37:41 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:37:50 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_delete2.php on line 74
+[07-Dec-2023 06:37:55 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:37:55 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:37:55 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:38:06 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:38:06 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:38:06 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:38:08 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:38:08 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:38:08 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:38:31 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 70
+[07-Dec-2023 06:38:31 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:38:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:38:34 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:38:34 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:38:45 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 70
+[07-Dec-2023 06:38:45 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:38:51 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_delete2.php on line 74
+[07-Dec-2023 06:38:55 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:38:57 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:38:59 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:39:01 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:39:37 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:39:43 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:39:49 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:40:15 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 161
+[07-Dec-2023 06:40:51 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:40:55 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:40:57 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:40:59 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:41:02 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:41:04 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:41:11 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:41:14 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:42:00 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:43:23 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:43:25 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:43:51 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:43:56 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:43:58 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:44:01 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:45:15 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:45:29 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:45:54 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:46:41 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:46:46 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:46:52 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:46:53 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:46:57 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:47:03 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:47:05 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:47:24 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:47:24 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:47:24 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:47:49 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 70
+[07-Dec-2023 06:47:49 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:47:57 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_delete2.php on line 74
+[07-Dec-2023 06:48:01 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:48:01 UTC] PHP Warning:  Undefined variable $selectedCID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 83
+[07-Dec-2023 06:48:01 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_form2.php on line 133
+[07-Dec-2023 06:48:03 UTC] PHP Warning:  Undefined variable $LinkID in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 70
+[07-Dec-2023 06:48:03 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_edit2.php on line 152
+[07-Dec-2023 06:48:08 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:48:11 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:48:13 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:48:15 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:48:30 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/admin_delete2.php on line 74
+[07-Dec-2023 06:48:34 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
+[07-Dec-2023 06:48:48 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:48:53 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/menu.php on line 162
+[07-Dec-2023 06:48:55 UTC] PHP Warning:  Undefined variable $PageFooter in /home/edr7491/ctech4321.edr7491.uta.cloud/termproject2/ctec web design/review.php on line 162
